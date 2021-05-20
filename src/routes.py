@@ -1,4 +1,4 @@
 from flask import Blueprint
 
 
-home = Blueprint("home")
+homebp = Blueprint("home", __name__)
