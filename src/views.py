@@ -1,5 +1,5 @@
+from flask import render_template, current_app
 from .routes import homebp
-from flask import render_template, request, redirect, url_for, current_app
 
 
 @homebp.route('/')
